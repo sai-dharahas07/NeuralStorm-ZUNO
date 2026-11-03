@@ -1,0 +1,135 @@
+/* Main Page */
+.diagnostic-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #f5f3ff, #eaf4ff);
+}
+
+/* Quiz Card */
+.diagnostic-card {
+  width: 100%;
+  max-width: 700px;
+  background: #ffffff;
+  padding: 45px;
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(75, 65, 180, 0.12);
+  text-align: center;
+}
+
+/* Heading */
+.diagnostic-card h1 {
+  color: #6254d8;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Question Counter */
+.diagnostic-card > p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* Progress Bar */
+.diagnostic-progress {
+  width: 100%;
+  height: 10px;
+  background: #e8e5ff;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.diagnostic-progress div {
+  height: 100%;
+  background: linear-gradient(90deg, #7565ed, #9c8cff);
+  border-radius: 20px;
+  transition: width 0.3s ease;
+}
+
+/* Question */
+.diagnostic-card h2 {
+  font-size: 24px;
+  color: #25263a;
+  margin-bottom: 30px;
+}
+
+/* Answer Options */
+.diagnostic-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.diagnostic-options button {
+  padding: 18px;
+  border: 2px solid #e5e3f5;
+  border-radius: 14px;
+  background: #ffffff;
+  color: #33334b;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.diagnostic-options button:hover {
+  border-color: #7565ed;
+  background: #f5f3ff;
+}
+
+/* Selected Answer */
+.diagnostic-options button.selected {
+  border-color: #6759df;
+  background: #eae7ff;
+  color: #5142c5;
+  font-weight: 600;
+}
+
+/* Next Button */
+.diagnostic-next {
+  width: 100%;
+  padding: 17px;
+  border: none;
+  border-radius: 14px;
+  background: #6759df;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.diagnostic-next:hover {
+  background: #5142c5;
+}
+
+/* Keyboard Accessibility */
+.diagnostic-options button:focus-visible,
+.diagnostic-next:focus-visible {
+  outline: 3px solid #a69aff;
+  outline-offset: 4px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .diagnostic-card {
+    padding: 25px;
+  }
+
+  .diagnostic-card h1 {
+    font-size: 25px;
+  }
+
+  .diagnostic-card h2 {
+    font-size: 20px;
+  }
+
+  .diagnostic-options {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,257 @@
+
+.practice-page {
+  min-height: 100vh;
+  background: #f8f7fc;
+  color: #29263b;
+}
+
+.practice-header {
+  background: white;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ece9f5;
+  font-weight: 600;
+}
+
+.practice-back {
+  background: #f0ebff;
+  color: #5b43b6;
+  border: 1px solid #d8cdfb;
+  padding: 10px 15px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.practice-main {
+  max-width: 850px;
+  margin: auto;
+  padding: 45px 24px;
+}
+
+.practice-intro {
+  margin-bottom: 30px;
+}
+
+.practice-label {
+  color: #7663c5;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.practice-intro h1 {
+  font-size: 34px;
+  margin: 12px 0;
+}
+
+.practice-intro p {
+  color: #696579;
+  line-height: 1.7;
+}
+
+.practice-card {
+  background: white;
+  border: 1px solid #ece9f5;
+  border-radius: 17px;
+  padding: 30px;
+}
+
+.practice-question-header {
+  display: flex;
+  justify-content: space-between;
+  color: #716d82;
+  font-weight: 600;
+}
+
+.practice-progress-track {
+  height: 10px;
+  background: #eeeaff;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px 0 30px;
+}
+
+.practice-progress-fill {
+  height: 100%;
+  background: #7155d9;
+  border-radius: 20px;
+  transition: width 0.3s;
+}
+
+.practice-question {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.practice-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.practice-option {
+  background: white;
+  border: 2px solid #e4e0ef;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.practice-option:hover:not(:disabled) {
+  border-color: #7155d9;
+  background: #f8f5ff;
+}
+
+.practice-option.selected {
+  border-color: #7155d9;
+  background: #f0ebff;
+}
+
+.practice-option.correct {
+  border-color: #23834c;
+  background: #e8f7ec;
+  color: #176438;
+}
+
+.practice-option.incorrect {
+  border-color: #c83c4b;
+  background: #fff0f1;
+  color: #9e2431;
+}
+
+.practice-option:disabled {
+  cursor: default;
+}
+
+.practice-primary,
+.practice-secondary {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.practice-primary {
+  background: #7155d9;
+  color: white;
+  border: none;
+}
+
+.practice-primary:hover:not(:disabled) {
+  background: #5d43c2;
+}
+
+.practice-primary:disabled {
+  background: #c8c0df;
+  cursor: not-allowed;
+}
+
+.practice-secondary {
+  background: white;
+  color: #6247c3;
+  border: 1px solid #cfc2ff;
+  margin-top: 12px;
+}
+
+.practice-feedback {
+  background: #f8f5ff;
+  border: 1px solid #e4dcff;
+  padding: 18px;
+  border-radius: 12px;
+  margin-top: 25px;
+}
+
+.practice-feedback h3 {
+  margin-top: 0;
+}
+
+.practice-feedback p {
+  line-height: 1.7;
+}
+
+.practice-support {
+  text-align: center;
+  color: #777387;
+  margin-top: 25px;
+  line-height: 1.7;
+}
+
+.practice-result {
+  max-width: 550px;
+  margin: 70px auto;
+  padding: 35px 25px;
+  text-align: center;
+  background: white;
+  border: 1px solid #ece9f5;
+  border-radius: 18px;
+}
+
+.result-icon {
+  font-size: 50px;
+}
+
+.practice-result h1 {
+  font-size: 32px;
+}
+
+.practice-score {
+  background: #f0ebff;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.practice-score strong {
+  font-size: 35px;
+  color: #6247c3;
+}
+
+.practice-encouragement {
+  line-height: 1.7;
+  color: #716d82;
+}
+
+.practice-result .practice-primary,
+.practice-result .practice-secondary {
+  display: block;
+}
+
+button:focus-visible {
+  outline: 3px solid #8b80ff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  .practice-main {
+    padding: 30px 18px;
+  }
+
+  .practice-options {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-card {
+    padding: 20px;
+  }
+
+  .practice-intro h1 {
+    font-size: 28px;
+  }
+
+  .practice-question {
+    font-size: 22px;
+  }
+
+  .practice-header {
+    padding: 15px 18px;
+  }
+}

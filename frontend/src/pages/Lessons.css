@@ -1,0 +1,68 @@
+
+/* ZUNO Voice Accessibility */
+
+.voice-controls {
+  background: #f0edff;
+  border: 1px solid #dcd5ff;
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.voice-controls h2 {
+  margin-top: 0;
+  color: #5141b8;
+}
+
+.voice-controls p {
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.voice-button,
+.lesson-read-button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.voice-button {
+  background: #6254d9;
+  color: white;
+  margin: 5px;
+}
+
+.voice-button:hover {
+  background: #493bb8;
+}
+
+.voice-stop {
+  background: #dc3545;
+}
+
+.voice-stop:hover {
+  background: #b52a37;
+}
+
+.lesson-read-button {
+  width: 100%;
+  margin-top: 14px;
+  background: #e9e5ff;
+  color: #5141b8;
+  border: 1px solid #d2caff;
+}
+
+.lesson-read-button:hover {
+  background: #dcd5ff;
+}
+
+.voice-button:focus-visible,
+.lesson-read-button:focus-visible {
+  outline: 3px solid #25263a;
+  outline-offset: 3px;
+}
+

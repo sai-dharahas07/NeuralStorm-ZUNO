@@ -1,0 +1,59 @@
+
+.preferences-page {
+  max-width: 750px;
+  margin: auto;
+  padding: 35px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.preferences-page header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.preferences-page header h1 {
+  color: #35266f;
+}
+
+.preference-card {
+  background: #fff;
+  padding: 22px;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  border: 1px solid #e3ddff;
+  box-shadow: 0 4px 12px rgba(60, 40, 120, 0.05);
+}
+
+.preference-card h2 {
+  font-size: 20px;
+  color: #35266f;
+  margin-top: 0;
+}
+
+.preference-card select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #c9c4e8;
+  background: white;
+  font-size: 16px;
+}
+
+.preference-card input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.preferences-continue {
+  display: block;
+  margin: 30px auto;
+  padding: 15px 28px;
+  background: #5b4bdb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+

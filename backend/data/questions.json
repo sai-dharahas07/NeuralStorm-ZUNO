@@ -1,0 +1,263 @@
+
+[
+  {
+    "id": "ml_001",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "What is Machine Learning?",
+    "options": {
+      "A": "Learning from data",
+      "B": "Creating web pages",
+      "C": "Installing software",
+      "D": "Designing hardware"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "ml_002",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Which of the following is an example of Machine Learning?",
+    "options": {
+      "A": "A calculator performing addition",
+      "B": "An email spam filter learning to detect spam",
+      "C": "A keyboard typing letters",
+      "D": "A monitor displaying images"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "ml_003",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "What is data in Machine Learning?",
+    "options": {
+      "A": "Only computer programs",
+      "B": "Only mathematical equations",
+      "C": "Information used to train models",
+      "D": "Computer hardware"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "ml_004",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Which task can Machine Learning perform?",
+    "options": {
+      "A": "Predicting house prices",
+      "B": "Physically repairing computers",
+      "C": "Replacing electricity",
+      "D": "Manufacturing keyboards"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "ml_005",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "What is a Machine Learning model?",
+    "options": {
+      "A": "A computer monitor",
+      "B": "A learned pattern used to make predictions",
+      "C": "A storage device",
+      "D": "A programming keyboard"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "ml_006",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "What is training in Machine Learning?",
+    "options": {
+      "A": "Installing an operating system",
+      "B": "Deleting all data",
+      "C": "Teaching a model using data",
+      "D": "Turning off a computer"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "ml_007",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Which is an example of supervised learning?",
+    "options": {
+      "A": "Learning from labeled examples",
+      "B": "Learning without any data",
+      "C": "Randomly selecting answers",
+      "D": "Deleting training examples"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "ml_008",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "What is the purpose of a training dataset?",
+    "options": {
+      "A": "To store computer passwords",
+      "B": "To teach a model patterns",
+      "C": "To increase screen brightness",
+      "D": "To install applications"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "ml_009",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "What is classification in Machine Learning?",
+    "options": {
+      "A": "Predicting a numerical temperature",
+      "B": "Sorting files alphabetically",
+      "C": "Assigning data to categories",
+      "D": "Compressing images"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "ml_010",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "What is regression used for?",
+    "options": {
+      "A": "Predicting numerical values",
+      "B": "Identifying computer viruses only",
+      "C": "Grouping text documents",
+      "D": "Creating database tables"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "ml_011",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "What is the purpose of a test dataset?",
+    "options": {
+      "A": "To train the model repeatedly",
+      "B": "To evaluate model performance on unseen data",
+      "C": "To remove all features",
+      "D": "To replace the training dataset"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "ml_012",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "What is overfitting?",
+    "options": {
+      "A": "A model learning too little from data",
+      "B": "A model having no parameters",
+      "C": "A model memorizing training data and performing poorly on new data",
+      "D": "A model deleting its training data"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "ml_013",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "What is unsupervised learning?",
+    "options": {
+      "A": "Learning patterns from unlabeled data",
+      "B": "Learning only from correct answers",
+      "C": "Learning without using data",
+      "D": "Learning only through programming instructions"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "ml_014",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "What does accuracy measure in classification?",
+    "options": {
+      "A": "The size of the dataset",
+      "B": "The proportion of predictions that are correct",
+      "C": "The training time",
+      "D": "The number of model parameters"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "ml_015",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "What is a feature in Machine Learning?",
+    "options": {
+      "A": "A computer's physical appearance",
+      "B": "A model's final prediction",
+      "C": "An input variable used by a model",
+      "D": "A software installation file"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "ml_016",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "Why is a validation dataset useful?",
+    "options": {
+      "A": "To tune model settings and compare models",
+      "B": "To permanently replace all training data",
+      "C": "To eliminate the need for testing",
+      "D": "To guarantee perfect accuracy"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "ml_017",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "What is regularization in Machine Learning?",
+    "options": {
+      "A": "Increasing training data errors intentionally",
+      "B": "Adding constraints or penalties to reduce overfitting",
+      "C": "Removing all model parameters",
+      "D": "Increasing dataset size automatically"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "ml_018",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "What is data leakage?",
+    "options": {
+      "A": "Data being stored in a database",
+      "B": "A dataset containing many features",
+      "C": "Information from outside the proper training process influencing model evaluation",
+      "D": "A model receiving training examples"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "ml_019",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "What is the purpose of cross-validation?",
+    "options": {
+      "A": "To estimate model performance across multiple data splits",
+      "B": "To remove all test data",
+      "C": "To guarantee that a model never overfits",
+      "D": "To replace every machine learning algorithm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "ml_020",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "A model performs very well on training data but poorly on unseen data. What is the most likely problem?",
+    "options": {
+      "A": "Underfitting",
+      "B": "Overfitting",
+      "C": "Perfect generalization",
+      "D": "Insufficient computer memory"
+    },
+    "correct_answer": "B"
+  }
+]
