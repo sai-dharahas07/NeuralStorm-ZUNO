@@ -1,156 +1,393 @@
-# ZUNO \| An Inclusive Adaptive Learning Platform
+# ZUNO – Inclusive Adaptive Learning Platform
 
-**Team:** BrainByte\
-**Hackathon:** Neural Storm Hackathon 2026\
-**Focus:** Accessible and personalized Machine Learning education
+### NeuralStorm | Team BrainByte | Hackathon 2026
 
-## Project Links
+**Problem Statement Number:** HI-03 (Adaptive Learning for Students with Disabilities)
 
-  ----------------------------------------------------------------------------------------
-  Resource                            Link
-  ----------------------------------- ----------------------------------------------------
-  Live application                    \[Add frontend deployment URL\]
+**Live Website:** [https://neural-storm-zuno.vercel.app](https://neural-storm-zuno.vercel.app)
 
-  Demo video                          \[Add Google Drive video URL\]
+**Backend API:** [https://zuno-backend-ahir.onrender.com](https://zuno-backend-ahir.onrender.com)
 
-  GitHub repository                   https://github.com/sai-dharahas07/NeuralStorm-ZUNO
-  ----------------------------------------------------------------------------------------
+**API Documentation:** [https://zuno-backend-ahir.onrender.com/docs](https://zuno-backend-ahir.onrender.com/docs)
 
-## 1. Problem Statement
+---
 
-Many digital learning platforms provide the same content, layout, pace,
-and assessment methods to everyone. This can create barriers for persons
-with disabilities and learners with different learning needs.
+## 1. About the Project
 
-For example, learners with dyslexia may find dense text difficult to
-follow; learners with visual or hearing impairments may need alternative
-ways to access content; and learners with ADHD-related needs may benefit
-from clearer presentation and manageable learning activities.
+**ZUNO** is an inclusive, AI-powered adaptive learning platform designed to make education accessible, personalized, and engaging for everyone, especially learners with disabilities and different learning needs.
 
-**The challenge is to make digital learning more accessible and
-adaptable to each learner's abilities, preferences, and pace.**
+Traditional learning platforms often follow a one-size-fits-all approach. However, every learner has different abilities, learning speeds, preferences, and challenges. Students with visual, hearing, cognitive, and other learning difficulties may face additional barriers when using conventional educational platforms.
 
-## 2. Our Solution
+ZUNO aims to address these challenges by providing an adaptive learning experience that considers each learner's abilities, preferences, accessibility requirements, and learning progress.
 
-**ZUNO** is an inclusive learning platform focused on Machine Learning
-education. It brings together accessibility preferences, language
-options, diagnostic assessment, practice quizzes, AI-supported
-evaluation, and progress-related services.
+Our goal is simple:
 
-ZUNO is designed to support: - Learners with dyslexia. - Learners with
-visual or hearing accessibility needs. - Learners with ADHD-related
-learning needs. - Learners with different knowledge levels and learning
-speeds. - Multilingual learners through English, Telugu, and Hindi
-language options.
+**To make learning accessible to everyone, regardless of their abilities or learning pace.**
 
-The platform provides support options, not a replacement for assistive
-technology or individual accommodations.
+## 2. Problem Statement
 
-## 3. Key Features
+Many existing digital learning platforms do not adequately accommodate learners with disabilities or different learning requirements.
 
--   **Accessibility preferences:** Options related to dyslexia, visual,
-    hearing, and ADHD-related needs.
--   **Language selection:** English, Telugu, and Hindi options;
-    translation coverage may vary.
--   **Diagnostic assessment:** Collects learner responses to understand
-    current knowledge.
--   **Adaptive-learning components:** Backend modules support difficulty
-    adjustment and personalized recommendations.
--   **Machine Learning practice:** Learning content and multiple-choice
-    quizzes.
--   **AI evaluation:** Sends learner responses to the backend evaluation
-    service.
--   **Progress services:** APIs for submitting and retrieving quiz
-    attempts and student progress.
--   **Teacher and admin workspaces:** Interface workflows for managing
-    learning activities.
+Some common challenges include:
 
+- Learning materials that are difficult to understand.
+- Limited accessibility and personalization options.
+- Fixed learning difficulty levels.
+- Lack of individual learning recommendations.
+- Difficulty identifying a student's strengths and weaknesses.
+- Learning experiences that do not adapt to individual student progress.
 
-## 4. Technology Stack
+ZUNO addresses these challenges through accessibility-oriented features, diagnostic assessments, adaptive difficulty, and personalized learning recommendations.
 
-  -----------------------------------------------------------------------
-  Technology                          Purpose
-  ----------------------------------- -----------------------------------
-  React + Vite                        Frontend application
+## 3. Our Solution
 
-  Python + FastAPI                    Backend APIs
+ZUNO provides an inclusive learning environment with adaptive and personalized educational support.
 
-  Pydantic                            Data validation
+### Key Features
 
-  SQLAlchemy                          Database interaction
+**1. Adaptive Learning**
 
-  Supabase PostgreSQL                 Database
+- Evaluates student performance through diagnostic assessments.
+- Identifies the learner's current learning level.
+- Recommends suitable difficulty levels.
+- Provides personalized learning recommendations.
 
-  Python AI modules                   Diagnostic, adaptation,
-                                      recommendation, and accessibility
-                                      logic
+**2. Accessibility Support**
 
-  Git + GitHub                        Version control
-  -----------------------------------------------------------------------
+- Simplified text support.
+- High-contrast display options.
+- Clear formatting for improved readability.
+- Accessibility preferences based on individual learner needs.
+- Designed to support learners with visual, hearing, cognitive, and other disabilities.
 
-## 5. Project Structure
+**3. Diagnostic Assessment**
 
-``` text
-NeuralStorm-ZUNO/
-├── backend/
-│   ├── app/              # FastAPI application
-│   ├── ai_engine/        # AI and adaptive-learning modules
-│   ├── tests/            # Backend tests
-│   └── requirements.txt
+- Machine Learning-based educational questions.
+- Evaluates student answers.
+- Identifies correct, incorrect, and unanswered questions.
+- Helps determine the learner's current understanding.
+
+**4. Personalized Recommendations**
+
+- Recommends learning activities based on assessment results.
+- Provides suggestions according to the learner's performance.
+- Supports an individualized learning journey.
+
+**5. Student Dashboard**
+
+- Provides access to learning activities.
+- Displays learning progress and assessment results.
+- Helps students understand their learning journey.
+
+**6. Teacher Dashboard**
+
+- Supports educational content and lesson management.
+- Allows teachers to create and manage learning tests.
+- Helps teachers support students' learning activities.
+
+**7. Admin Dashboard**
+
+- Provides administrative management functionality.
+- Supports teacher and learning-content management.
+
+## 4. How ZUNO Works – Project Workflow
+
+1. **Learner Access:** The student enters the ZUNO learning platform.
+2. **Accessibility Preferences:** The learner selects suitable learning and accessibility preferences.
+3. **Diagnostic Assessment:** The learner answers Machine Learning assessment questions.
+4. **AI Evaluation:** The backend processes the learner's answers and evaluates performance.
+5. **Learning-Level Identification:** The system identifies the learner's current learning level.
+6. **Adaptive Difficulty:** The platform recommends an appropriate difficulty level.
+7. **Personalized Recommendations:** Learning recommendations are generated based on the assessment.
+8. **Continuous Learning:** Students continue learning through lessons and practice activities.
+
+## 5. Technology Stack
+
+| Component            | Technologies        |
+| -------------------- | ------------------- |
+| Frontend             | React.js            |
+| Build Tool           | Vite                |
+| Styling              | CSS                 |
+| Backend              | Python, FastAPI     |
+| AI / Adaptive Engine | Python              |
+| API Validation       | Pydantic            |
+| Database             | Supabase PostgreSQL |
+| Database Integration | SQLAlchemy          |
+| Frontend Deployment  | Vercel              |
+| Backend Deployment   | Render              |
+| Version Control      | Git and GitHub      |
+
+### Why We Chose This Technology Stack
+
+- **React.js:** Builds interactive and reusable user interfaces.
+- **Vite:** Provides a fast frontend development and production build process.
+- **Python:** Supports AI-related logic and adaptive learning functionality.
+- **FastAPI:** Provides a lightweight and efficient backend API.
+- **Pydantic:** Validates API request and response data.
+- **SQLAlchemy:** Supports database interaction.
+- **Supabase PostgreSQL:** Stores structured application data.
+- **Vercel:** Hosts the frontend application.
+- **Render:** Hosts the backend API.
+
+## 7. Project Structure
+
+The project is organized into separate frontend and backend components.
+
+```text
+NeuralStorm_ZUNO/
+│
 ├── frontend/
-│   ├── src/              # React source code
-│   ├── public/           # Static assets
-│   └── package.json
-└── .gitignore
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── ...
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/
+│   ├── app/
+│   │   ├── routes/
+│   │   ├── schemas/
+│   │   └── ...
+│   ├── requirements.txt
+│   └── ...
+│
+├── ai_engine/
+│   └── ...
+│
+└── README.md
 ```
 
-## 6. Run Locally
+## 8. Installation and Setup Instructions
 
-**Requirements:** Git, Node.js, npm, Python, and a Supabase project if
-using the hosted database.
+Follow these steps to run ZUNO locally.
 
-Clone the project:
+### Prerequisites
 
-``` bash
+Install the following:
+
+- Node.js and npm
+- Python
+- Git
+- A Supabase project with PostgreSQL configured
+
+### Step 1: Clone the Repository
+
+```bash
 git clone https://github.com/sai-dharahas07/NeuralStorm-ZUNO.git
 cd NeuralStorm-ZUNO
 ```
 
-Set up the backend (Windows PowerShell):
+### Step 2: Set Up the Frontend
 
-``` powershell
-cd backend
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-Copy-Item .env.example .env
-```
+Open a terminal:
 
-Configure your local backend environment using the example file. Start
-the backend using the entry point configured in the project. For an app
-exposed as `app` from `app/main.py`:
-
-``` bash
-uvicorn app.main:app --reload
-```
-
-In a second terminal, set up the frontend:
-
-``` bash
+```bash
 cd frontend
 npm install
+```
+
+Create a `.env` file inside the frontend directory:
+
+```env
+VITE_API_BASE_URL=http://127.0.0.1:8000
+```
+
+Start the frontend:
+
+```bash
 npm run dev
 ```
 
-Vite displays the local frontend address in the terminal. To create a
-production build, run `npm run build` inside `frontend/`.
+The frontend will generally be available at:
+
+```text
+http://localhost:5173
+```
+
+### Step 3: Set Up the Backend
+
+Open another terminal from the project root:
+
+```bash
+cd backend
+```
+
+Create a Python virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate it on Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+Install the backend dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Configure the backend environment variables in the backend `.env` file.
+
+Example configuration:
+
+```env
+DATABASE_URL=your_supabase_database_connection_string
+FRONTEND_ORIGINS=http://localhost:5173
+```
+
+**Important:** Use your own Supabase database connection string. Never commit `.env` files, database passwords, API keys, or other secrets to GitHub.
+
+Start the backend:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+The backend will generally be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
+API documentation:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+### Step 4: Run the Application
+
+Ensure both frontend and backend terminals are running.
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+The frontend communicates with the backend through the configured API URL.
+
+## 9. Live Deployment
+
+ZUNO is deployed using the following services:
+
+| Service  | Deployment          |
+| -------- | ------------------- |
+| Frontend | Vercel              |
+| Backend  | Render              |
+| Database | Supabase PostgreSQL |
+
+**Live Application:**
+[https://neural-storm-zuno.vercel.app](https://neural-storm-zuno.vercel.app)
+
+**Backend Service:**
+[https://zuno-backend-ahir.onrender.com](https://zuno-backend-ahir.onrender.com)
+
+**API Documentation:**
+[https://zuno-backend-ahir.onrender.com/docs](https://zuno-backend-ahir.onrender.com/docs)
+
+Github Link:
+
+[https://github.com/sai-dharahas07/NeuralStorm-ZUNO](https://github.com/sai-dharahas07/NeuralStorm-ZUNO)
 
 
 
+## 10. Project Demo Video
 
+Watch our project demonstration to understand the ZUNO platform, its features, dashboards, and adaptive learning workflow.
 
+**&#x20;Watch ZUNO Project Demo:**
 
+[▶ Watch ZUNO Demo Video](https://drive.google.com/file/d/13RhNzMrjDgtPCKRQ9J0mGmWTs8ukD4Mc/edit)
 
-**ZUNO by Team BrainByte**\
-*Making Machine Learning education more inclusive, accessible, and
-adaptive.*
+Make sure the Google Drive sharing permission is set to **Anyone with the link – Viewer**.
+
+###
+
+## 12. Model Performance and Evaluation Metrics
+
+ZUNO uses diagnostic evaluation and adaptive learning logic to assess student performance.
+
+The evaluation includes:
+
+- Total questions.
+- Number of answered questions.
+- Correct answers.
+- Incorrect answers.
+- Unanswered questions.
+- Score percentage.
+- Identified learning level.
+- Recommended difficulty.
+
+The platform uses student assessment results to provide personalized learning recommendations.
+
+**Note:** We have not published a scientifically validated model accuracy percentage or benchmark score. The diagnostic score displayed by the application represents student assessment performance, not machine-learning model accuracy.
+
+## 13. AI Tools Used
+
+The development process used AI-assisted tools to support implementation, debugging, and project development.
+
+- **ChatGPT:** Assistance with project planning, architecture, coding, debugging, API integration, documentation, and development guidance.
+
+AI-assisted tools were used during development. ZUNO's actual application functionality is implemented through its frontend, backend, database, and adaptive learning components.
+
+## 14. Social Impact and Accessibility
+
+ZUNO is designed with inclusivity at its core.
+
+We believe that every student deserves equal opportunities to learn, regardless of physical abilities, learning difficulties, or individual learning speed.
+
+The platform aims to support:
+
+- Learners with visual disabilities.
+- Learners with hearing-related accessibility needs.
+- Learners with cognitive and learning difficulties.
+- Students who benefit from simplified educational content.
+- Students who require different learning speeds and difficulty levels.
+
+Our mission is to reduce learning barriers and make digital education more inclusive, accessible, and personalized.
+
+**ZUNO: Learning at your own pace, in your own way.**
+
+## 15. Future Enhancements
+
+We plan to improve ZUNO through:
+
+- More comprehensive screen-reader compatibility.
+- Expanded text-to-speech and audio learning support.
+- Improved multilingual support.
+- More personalized AI learning recommendations.
+- Expanded subject coverage.
+- Enhanced student progress analytics.
+- Improved teacher-student interaction.
+- More comprehensive accessibility testing.
+
+## 16. Team BrainByte
+
+**Project:** ZUNO
+**Team:** NeuralStorm / BrainByte
+**Hackathon:** Neural Storm Hackathon 2026
+
+### Team Members
+
+1. Sai Dharahas Thatipamula
+2. Sai Eshwari Yardam
+3. Poorna Swapna Thota
+
+---
+
+## 17. Acknowledgement
+
+We developed ZUNO with the vision of making digital education more inclusive and accessible.
+
+We believe technology should adapt to learners, not force learners to adapt to technology.
+
+**Thank you for exploring ZUNO!**
+
+### ZUNO – Inclusive Learning. Personalized Growth. Equal Opportunities.
